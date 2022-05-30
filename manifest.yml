@@ -1,0 +1,6 @@
+---
+applications:
+- name: spatial-clash-hw
+path: build/
+instances: 2
+memory: 32M
