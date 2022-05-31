@@ -1,7 +1,10 @@
 import earth from './earth.png';
 import './App.css';
+import React from 'react';
 
-function App() {
+class App extends React.Component {
+ 
+render() {
   return (
     <div className="App">
       <header className="App-header">
@@ -9,10 +12,9 @@ function App() {
         <p>
          Hello, World!
         </p>
-       
-      </header>
+        </header>
     </div>
-  );
+  ); 
 }
-
+}
 export default App;
